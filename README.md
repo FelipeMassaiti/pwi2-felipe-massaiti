@@ -25,7 +25,6 @@ Adicione as dependências:
 Spring Web
 Spring Data JPA
 Validation
-H2 Database — para começar sem precisar instalar um banco
 
 Depois clique em Generate e abra o .zip na sua IDE.
 
@@ -61,10 +60,3 @@ GET    /users/{id}
 POST   /users
 DELETE /users/{id}
 
-7. Configurar o banco
-Para começar, pode usar H2 no application.properties.
-Executar
-./mvnw spring-boot:run
-Testar
-Use Postman/Insomnia para enviar requisições para:
-http://localhost:8080/users
