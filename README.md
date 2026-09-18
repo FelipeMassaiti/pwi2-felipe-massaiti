@@ -51,7 +51,6 @@ Ele fornece métodos prontos, como save() e findAll().
 
 Ex: UserRepository extends JpaRepository<User, Long>.
 
-
 7. Criar o Controller
 
 Define as rotas da API:
