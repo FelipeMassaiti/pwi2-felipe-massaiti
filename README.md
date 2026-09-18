@@ -39,7 +39,7 @@ src/main/java/com/exemplo/api
 4. Criar a Model
 Model representa os dados da aplicação.
 
-Exemplo: User pode ter id, nome e email.
+Ex: User pode ter id, nome e email.
 Entity indica que a classe representa uma tabela no banco.
 Cada objeto do Model representa um registro dessa tabela.
 
@@ -50,7 +50,7 @@ Ele permite salvar, buscar, atualizar e excluir dados.
 Normalmente usamos JpaRepository.
 Ele fornece métodos prontos, como save() e findAll().
 
-Exemplo: UserRepository extends JpaRepository<User, Long>.
+Ex: UserRepository extends JpaRepository<User, Long>.
 
 
 7. Criar o Controller
