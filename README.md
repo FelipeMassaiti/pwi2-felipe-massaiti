@@ -40,7 +40,7 @@ src/main/java/com/exemplo/api
 Model representa os dados da aplicação.
 
 Exemplo: User pode ter id, nome e email.
-@Entity indica que a classe representa uma tabela no banco.
+Entity indica que a classe representa uma tabela no banco.
 Cada objeto do Model representa um registro dessa tabela.
 
 5. Criar o Repository
